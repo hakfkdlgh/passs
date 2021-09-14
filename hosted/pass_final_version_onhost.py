@@ -4,7 +4,7 @@ from telegram import Update, message, replykeyboardmarkup, ReplyKeyboardRemove
 
 import random
 
-token = '1632732324:AAFa2heoBQnNUDigD_5LaViZBEf-L0B7wso'
+token = '1916845685:AAFBKGEP6cyfdXs2iPiTis9-vmwXnbGtopE'
 setting = {}
 account = {}
 test_dict_name = {}
