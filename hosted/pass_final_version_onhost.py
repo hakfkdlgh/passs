@@ -237,7 +237,7 @@ def cancel_acc(update: Update, context: CallbackContext) -> int:
 
 # '''------------------------------------------------------------------------------------------------------------------------------------------'''
 # , request_kwargs={'proxy_url': 'socks5h://127.0.0.1:9150'}
-updater = Updater(token='1916845685:AAGOZlXLvYjE54ZDH44a0pQJmRr1KTluIyg')
+updater = Updater(token=token)
 
 conver = ConversationHandler(
     entry_points=[CommandHandler('add_account', add_accounts)],
